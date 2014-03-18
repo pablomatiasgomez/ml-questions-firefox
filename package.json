@@ -1,12 +1,12 @@
 {
-  "name": "ml-questions",
-  "fullName": "Mercadolibre Preguntas Autos",
-  "title": "Mercadolibre Preguntas Autos",
-  "id": "jid1-LJprkDPUHT2LVA",
-  "description": "Extension para mostrar las preguntas (que mercadolibre oculta) en las publicaciones de autos, motos e inmuebles ~ By Anush ~",
-  "author": "Pablo Matías Gomez",
-  "license": "MPL 2.0",
-  "version": "1.3.1",
-  "icon": "icons/icon48.png",
-  "icon64": "icons/icon48.png"
+	"name": "ml-questions",
+	"fullName": "Mercadolibre Preguntas Autos",
+	"title": "Mercadolibre Preguntas Autos",
+	"id": "jid1-LJprkDPUHT2LVA",
+	"description": "Extension para mostrar las preguntas (que mercadolibre oculta) en las publicaciones de autos, motos e inmuebles ~ By Anush ~",
+	"author": "Pablo Matías Gomez",
+	"license": "MPL 2.0",
+	"version": "1.3.1",
+	"icon": "icons/icon48.png",
+	"icon64": "icons/icon48.png"
 }
