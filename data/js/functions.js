@@ -2,8 +2,6 @@ var item_id;
 var count = 0;
 var str;
 
-window.alert("Page matches ruleset");
-
 while (!item_id && count<3) {
     count++;
     switch (count) {
@@ -42,6 +40,8 @@ function getQuestions() {
             if (!data.questions.length) {
                 if ($(".contactarInferior").length) $(".contactarInferior").after(getQuestionsHTML(questions));
                 else $("#tabNavigator").after(getQuestionsHTML(questions));
+
+                $(".hidden-questions").css("background-image", "url('" + self.options.dataUrl + "images/byanush.png" + "')");
             }
             else getQuestions(); 
         },
