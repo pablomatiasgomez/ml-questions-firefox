@@ -30,9 +30,12 @@ if (item_id) {
 
 function getQuestions() {
     offset += 50;
+    var url = "https://api.mercadolibre.com/questions/search";
+    var queryString = "?item_id=" + encodeURIComponent(item_id) + "&offset=" + encodeURIComponent(offset);
+    url = url + queryString;
     $.ajax({
         type: 'GET',
-        url: "https://api.mercadolibre.com/questions/search?item_id=" + item_id + "&offset=" + offset,
+        url: url,
         dataType:"json",
         success: function(data) {
             var total = data.total;
@@ -49,7 +52,9 @@ function getQuestions() {
         },
         error: function() {
             console.error("error");
-        }
+        },
+        jsonp: false,
+        jsonpCallback: function() { return false; }
     });
 }
 
