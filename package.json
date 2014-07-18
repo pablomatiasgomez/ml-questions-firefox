@@ -3,10 +3,10 @@
 	"fullName": "Mercadolibre Preguntas Autos",
 	"title": "Mercadolibre Preguntas Autos",
 	"id": "extensionmlquestions@extension.com",
-	"description": "Extension para mostrar las preguntas (que mercadolibre oculta) en las publicaciones de autos, motos e inmuebles ~ By Anush ~",
+	"description": "Extension para mostrar las preguntas (que mercadolibre oculta) en las publicaciones de autos, motos e inmuebles",
 	"author": "Pablo Matías Gomez",
+	"version": "1.4.5",
 	"license": "MPL 2.0",
-	"version": "1.4.4",
 	"icon": "icons/icon48.png",
 	"icon64": "icons/icon48.png"
 }
